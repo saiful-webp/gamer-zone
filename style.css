@@ -58,8 +58,6 @@ nav>ul li {
     padding: 10px 20px;
     border-radius: 5px;
     margin-bottom: 5px;
-    /* background: rgba(11, 2, 35, 0.10);
-    border-radius: 5px; */
 }
 
 /* banner section */
@@ -105,10 +103,10 @@ nav>ul li {
     flex-direction: column;
     gap: 12px;
     margin-bottom: 20px;
-    
+
 }
 
-.banner > ul li {
+.banner>ul li {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -130,7 +128,7 @@ nav>ul li {
     background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
 }
 
-.btn-2 {                         
+.btn-2 {
     color: #fff;
     font-size: 16px;
     font-weight: 600;
@@ -140,6 +138,7 @@ nav>ul li {
     border: none;
     background: #4ec5f7;
 }
+
 .banner-img {
     width: 360px;
 }
@@ -147,3 +146,5 @@ nav>ul li {
 .banner-img img {
     width: 100%;
 }
+
+/* online games section */

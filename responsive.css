@@ -1,0 +1,23 @@
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+        gap: 40px;
+        width: 100%;
+        padding-top: 20px;
+        height: auto;
+        padding-bottom: 25px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .banner-content{
+        flex-direction: column;
+        gap: 45px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-title-1{
+        font-size: 45px;
+    }
+}
