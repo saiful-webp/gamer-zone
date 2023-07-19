@@ -157,6 +157,29 @@ nav>ul li {
     padding-bottom: 15px;
 }
 
+.card-body {
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    left: 30%;
+    display: none;
+}
+
+.card-body p {
+    color: #F948B2;
+}
+
+.card:hover .card-body {
+    display: block;
+
+}
+
+.card:hover .game-img {
+    border: 5px solid #F948B2;
+    border-radius: 20px;
+    filter: brightness(30%);
+}
+
 .online-game-title .text-color {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -282,7 +305,7 @@ nav>ul li {
 }
 
 /* cartoon button section */
-.cartoon-btn-content{
+.cartoon-btn-content {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     margin: 0 auto;
 
@@ -320,7 +343,7 @@ nav>ul li {
 
 .cartoon-text {
     color: #0B0223;
-    font-size:13px;
+    font-size: 13px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -328,7 +351,7 @@ nav>ul li {
 }
 
 
-.cartoon-btn-content-2{
+.cartoon-btn-content-2 {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
@@ -365,7 +388,7 @@ nav>ul li {
 
 .cartoon-text-2 {
     color: #0B0223;
-    font-size:13px;
+    font-size: 13px;
     display: flex;
     justify-content: center;
     align-items: center;

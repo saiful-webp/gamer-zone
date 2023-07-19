@@ -27,45 +27,129 @@
         font-size: 45px;
     }
 
-    .play-instantly-content{
+    .play-instantly-content {
         flex-direction: column-reverse;
-        gap:10px;
+        gap: 10px;
         margin-bottom: -80px;
-      }
-      .play-instantly-text{
+    }
+
+    .play-instantly-text {
         width: 100%;
         text-align: center;
-      }
-      .play-instantly-img{
+    }
+
+    .play-instantly-img {
         width: 100%;
         padding: 38px;
-      }
-      .play-instantly-img > img{
+    }
+
+    .play-instantly-img>img {
         width: 100%;
         left: 60px;
-      }
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
+        padding: 30px;
+    }
+
+    section .h2 {
+        font-size: 24px;
+    }
+
+    section .p {
+        font-size: 11px;
+    }
+
+    .card p {
+        font-size: 20px;
+    }
+
+    .footer-container {
+        height: auto;
+        padding-bottom: 38px;
+        padding-top: 70px;
+    }
+
+    .footer-menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 50px;
+        padding-right: 40px;
+    }
+
+    .footer-menu a {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    .foot-icon {
+        flex-wrap: wrap;
+        padding-left: 120px;
+        padding-right: 100px;
+        justify-content: center;
+    }
+
+    .foot-icon span {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .foot-sub {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 50px;
+        padding-right: 40px;
+        align-items: center;
+    }
+
+    .foot-sub a {
+        margin-top: 20px;
+        margin-right: 25px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .foot-sub,
+    .rightA {
+        padding-right: 35px;
+    }
+
+    .copy-write {
+        color: rgba(255, 255, 255, 0.6);
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        width: 180px;
+    }
+
+    .card-body {
+        height: 88.4%;
+    }
+
 
 }
 
 /* tablet responsive */
 @media screen and (min-width: 577px) and (max-width: 768px) {
     nav {
-    flex-direction: column;
-    gap: 40px;
-    width: 100%;
-    padding-top: 20px;
-    height: auto;
-    padding-bottom: 30px;
-}
+        flex-direction: column;
+        gap: 40px;
+        width: 100%;
+        padding-top: 20px;
+        height: auto;
+        padding-bottom: 30px;
+    }
 
-.banner-content {
-    gap: 45px;
-}
+    .banner-content {
+        gap: 45px;
+    }
 
-.banner-img {
-    width: 100%;
-}
-.banner-title-1 {
-    font-size: 45px;
-}
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner-title-1 {
+        font-size: 45px;
+    }
 }
