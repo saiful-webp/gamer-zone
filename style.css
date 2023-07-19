@@ -282,45 +282,51 @@ nav>ul li {
 }
 
 /* cartoon button section */
-.cartoon-btn-content{
+.cartoon-btn-content {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     margin: 0 auto;
-  
-  }
-  .cartoon-btn-container{
+
+}
+
+.cartoon-btn-container {
     display: flex;
-    grid-template-columns: repeat(5,calc(var(--font-size) * 15));
-    column-gap:calc(var(--font-size) * 0.9);
+    column-gap: 2px;
     row-gap: 10px;
     justify-content: center;
     padding-bottom: 50px;
     padding-top: 50px;
-  }
-  .cartoon-btn{
+}
+
+.cartoon-btn {
     display: flex;
     align-items: center;
-    gap:calc(var(--font-size) * 0.8);
+    gap: 5px;
+    padding: 7px;
     border: 1px solid white;
-    padding:calc(var(--font-size) * 0.8);
-    border-radius:45px;
-  }
-  .cartoon-btn:hover{
+    border-radius: 45px;
+}
+
+.cartoon-btn:hover {
     border: 1px solid #f948b2;
-  }
-  .cartoon-btn:hover .cartoon-text{
+}
+
+.cartoon-btn:hover .cartoon-text {
     color: #f948b2;
-  }
-  .cartoon-btn img{
-    width:calc(var(--font-size) * 3.225);
-  }
-  .cartoon-text{
+}
+
+.cartoon-btn img {
+    width: 18%;
+    padding-left: 10px;
+}
+
+.cartoon-text {
     color: #0B0223;
-  font-size:calc(var(--font-size) * 1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
-  }
+    font-size:13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
 
 /* footer section */
 
@@ -328,70 +334,70 @@ nav>ul li {
     background: #0b0223;
     margin-top: 150px;
     color: white;
-  }
-  
-  .footer-container {
+}
+
+.footer-container {
     display: flex;
     flex-direction: column;
     height: 400px;
     align-items: center;
     justify-content: center;
     padding-top: 15px;
-  }
-  
-  .foot-logo {
+}
+
+.foot-logo {
     display: flex;
     padding-bottom: 30px;
-  }
-  
-  .logo2 {
+}
+
+.logo2 {
     font-size: 35px;
     font-weight: 700;
-  }
-  
-  .logo2 .diff-color {
+}
+
+.logo2 .diff-color {
     color: #ff42a5;
-  }
-  
-  .foot-logo img {
+}
+
+.foot-logo img {
     margin-right: 10px;
-  }
-  
-  .footer-menu {
+}
+
+.footer-menu {
     display: flex;
     padding-bottom: 30px;
-  }
-  
-  .footer-menu a {
+}
+
+.footer-menu a {
     text-decoration: none;
     color: #fff;
     margin-right: 28px;
-  }
-  
-  .foot-icon {
+}
+
+.foot-icon {
     display: flex;
     padding-bottom: 30px;
-  }
-  
-  .foot-icon span {
+}
+
+.foot-icon span {
     margin-right: 30px;
     font-size: 30px;
-  }
-  
-  .foot-sub {
+}
+
+.foot-sub {
     display: flex;
     padding-bottom: 20px;
-  }
-  
-  .foot-sub a {
+}
+
+.foot-sub a {
     text-decoration: none;
     color: #fff;
     margin-right: 28px;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.6);
-  }
-  
-  .copy-write {
+}
+
+.copy-write {
     color: rgba(255, 255, 255, 0.6);
     text-align: center;
     font-family: Work Sans;
@@ -399,4 +405,4 @@ nav>ul li {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-  }
+}
