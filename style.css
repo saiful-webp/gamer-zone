@@ -282,7 +282,7 @@ nav>ul li {
 }
 
 /* cartoon button section */
-.cartoon-btn-content {
+.cartoon-btn-content{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     margin: 0 auto;
 
@@ -293,7 +293,6 @@ nav>ul li {
     column-gap: 2px;
     row-gap: 10px;
     justify-content: center;
-    padding-bottom: 50px;
     padding-top: 50px;
 }
 
@@ -320,6 +319,51 @@ nav>ul li {
 }
 
 .cartoon-text {
+    color: #0B0223;
+    font-size:13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+
+.cartoon-btn-content-2{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.cartoon-btn-container- {
+    display: flex;
+    column-gap: 2px;
+    row-gap: 10px;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.cartoon-btn-2 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 7px;
+    border: 1px solid white;
+    border-radius: 45px;
+}
+
+.cartoon-btn-2:hover {
+    border: 1px solid #f948b2;
+}
+
+.cartoon-btn-2:hover .cartoon-text {
+    color: #f948b2;
+}
+
+.cartoon-btn-2 img {
+    width: 18%;
+    padding-left: 10px;
+}
+
+.cartoon-text-2 {
     color: #0B0223;
     font-size:13px;
     display: flex;
