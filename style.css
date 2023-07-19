@@ -1,4 +1,149 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header section */
+.nav {
+    background-color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 125px;
+    margin: 0 auto;
+}
+
+.gamer-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.gamer-logo img {
+    width: 86px;
+    height: 40px;
+}
+
+.gamer-logo .logo-tittle {
+    text-align: center;
+    font-size: 43px;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+
+nav>ul li {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav .btn-primary {
+    color: #3C354F;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    /* background: rgba(11, 2, 35, 0.10);
+    border-radius: 5px; */
+}
+
+/* banner section */
+.banner {
+    background-color: rgb(252, 251, 254);
+    padding-top: 40px;
+}
+
+.banner-content {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-title-1 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.banner-title-2 {
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+}
+
+.banner ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+    
+}
+
+.banner > ul li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.banner-btn {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-1 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    padding: 18px 30px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+}
+
+.btn-2 {                         
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 18px 30px;
+    border-radius: 40px;
+    border: none;
+    background: #4ec5f7;
+}
+.banner-img {
+    width: 360px;
+}
+
+.banner-img img {
+    width: 100%;
 }
